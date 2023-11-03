@@ -32,6 +32,8 @@ struct CreateUsernameView: View {
             
             //Next Button
             NavigationLink{
+                CreatePasswordView()
+                    .navigationBarBackButtonHidden(true)
                 
             }label: {
                 Text("Next")

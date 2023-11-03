@@ -21,6 +21,8 @@
 		AA516C152AF58A39004E3F47 /* AddEMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C142AF58A39004E3F47 /* AddEMailView.swift */; };
 		AA516C172AF58F1E004E3F47 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C162AF58F1E004E3F47 /* IGTextFieldModifier.swift */; };
 		AA516C192AF59113004E3F47 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C182AF59113004E3F47 /* CreateUsernameView.swift */; };
+		AA516C1B2AF59686004E3F47 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */; };
+		AA516C1D2AF59927004E3F47 /* CompleteSignedUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C1C2AF59927004E3F47 /* CompleteSignedUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		AA516C142AF58A39004E3F47 /* AddEMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEMailView.swift; sourceTree = "<group>"; };
 		AA516C162AF58F1E004E3F47 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		AA516C182AF59113004E3F47 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		AA516C1C2AF59927004E3F47 /* CompleteSignedUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignedUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			children = (
 				AA516C122AF580EF004E3F47 /* LoginView.swift */,
 				AA516C142AF58A39004E3F47 /* AddEMailView.swift */,
+				AA516C1C2AF59927004E3F47 /* CompleteSignedUpView.swift */,
+				AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */,
 				AA516C182AF59113004E3F47 /* CreateUsernameView.swift */,
 			);
 			name = Authentication;
@@ -279,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA516C1D2AF59927004E3F47 /* CompleteSignedUpView.swift in Sources */,
 				AA516C0F2AF5737F004E3F47 /* FeedCell.swift in Sources */,
 				AA516C072AF56308004E3F47 /* ProfileView.swift in Sources */,
 				AA516BEA2AF55F17004E3F47 /* ContentView.swift in Sources */,
@@ -291,6 +298,7 @@
 				AA516C152AF58A39004E3F47 /* AddEMailView.swift in Sources */,
 				AA516C0D2AF57366004E3F47 /* FeedView.swift in Sources */,
 				AA516C052AF560AC004E3F47 /* MainTabView.swift in Sources */,
+				AA516C1B2AF59686004E3F47 /* CreatePasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
