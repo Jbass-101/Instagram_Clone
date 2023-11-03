@@ -23,6 +23,7 @@
 		AA516C192AF59113004E3F47 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C182AF59113004E3F47 /* CreateUsernameView.swift */; };
 		AA516C1B2AF59686004E3F47 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */; };
 		AA516C1D2AF59927004E3F47 /* CompleteSignedUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C1C2AF59927004E3F47 /* CompleteSignedUpView.swift */; };
+		AA516C1F2AF59B43004E3F47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C1E2AF59B43004E3F47 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		AA516C182AF59113004E3F47 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 		AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		AA516C1C2AF59927004E3F47 /* CompleteSignedUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignedUpView.swift; sourceTree = "<group>"; };
+		AA516C1E2AF59B43004E3F47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		AA516BF72AF55F45004E3F47 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA516C1E2AF59B43004E3F47 /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				AA516C0B2AF56B0A004E3F47 /* UserStatView.swift in Sources */,
 				AA516C112AF57DAC004E3F47 /* SearchView.swift in Sources */,
 				AA516C192AF59113004E3F47 /* CreateUsernameView.swift in Sources */,
+				AA516C1F2AF59B43004E3F47 /* User.swift in Sources */,
 				AA516BE82AF55F17004E3F47 /* Instagram_CloneApp.swift in Sources */,
 				AA516C172AF58F1E004E3F47 /* IGTextFieldModifier.swift in Sources */,
 				AA516C152AF58A39004E3F47 /* AddEMailView.swift in Sources */,
