@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Identifiable, Codable {
+struct User: Identifiable, Hashable, Codable {
     let id: String
     let email: String
     var username: String
@@ -18,11 +18,11 @@ struct User: Identifiable, Codable {
 
 extension User {
     static var MOCK_USERS: [User] = [
-        .init(id: NSUUID().uuidString, email: "mario@gmail.com", username:"mario", profileImageUrl: "image1", fullname: "Mario Bros", bio: "This is all about me"),
-        .init(id: NSUUID().uuidString, email: "venom@gmail.com", username:"plauer", profileImageUrl: "image2", fullname: "Mario Bros", bio: "This is all about me"),
-        .init(id: NSUUID().uuidString, email: "iornam@gmail.com", username:"iorman", profileImageUrl: "image1", fullname: "Iron Bros", bio: "This is all about me"),
-        .init(id: NSUUID().uuidString, email: "tonystark@gmail.com", username:"tony_tsar", profileImageUrl: "image1", fullname: "Test Bros", bio: "This is all about me"),
-        .init(id: NSUUID().uuidString, email: "spiderman@gmail.com", username:"mario", profileImageUrl: "image1", fullname: "heaven Bros", bio: "This is all about me"),
+        .init(id: NSUUID().uuidString, email: "mario@gmail.com", username:"luffy", profileImageUrl: "luffy", fullname: "Monkey D Luffy", bio: "I am a rubber man"),
+        .init(id: NSUUID().uuidString, email: "venom@gmail.com", username:"zorro", profileImageUrl: "zorro", fullname: "Roa Zorro", bio: "I like playing with swords"),
+        .init(id: NSUUID().uuidString, email: "iornam@gmail.com", username:"traffy", profileImageUrl: "traffy", fullname: "Trafalgar Law", bio: "I can do all sorts of fancy things"),
+        .init(id: NSUUID().uuidString, email: "tonystark@gmail.com", username:"sabo", profileImageUrl: "sabo", fullname: "Sabo D Sabo", bio: "I Can burn flames"),
+        .init(id: NSUUID().uuidString, email: "spiderman@gmail.com", username:"shanks", profileImageUrl: "shanks", fullname: "Shanks Banger", bio: "I wear black shirts and red capes"),
     
     ]
 }
