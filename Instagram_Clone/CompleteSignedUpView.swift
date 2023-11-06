@@ -12,12 +12,14 @@ struct CompleteSignedUpView: View {
     
     @Environment(\.dismiss) var dismiss
     
+    @EnvironmentObject var vm: RegistrationVM
+    
     var body: some View {
         VStack(spacing: 12){
             
             Spacer()
             
-            Text("Welcome to Instagram, Paulette")
+            Text("Welcome to Instagram, \(vm.username)")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding(.top)
@@ -30,7 +32,9 @@ struct CompleteSignedUpView: View {
             
             //Next Button
             Button{
-                print("Complete sign up")
+                Task {
+                    try await vm.createUser()
+                }
                 
             }label: {
                 Text("Complete Sign Up")

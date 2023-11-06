@@ -14,6 +14,7 @@
 		AA0A37BB2AF97BFC000F4D0F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AA0A37BA2AF97BFC000F4D0F /* FirebaseStorage */; };
 		AA0A37BF2AF97E21000F4D0F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A37BE2AF97E21000F4D0F /* AuthService.swift */; };
 		AA0A37C42AF98051000F4D0F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A37C32AF98051000F4D0F /* ContentViewModel.swift */; };
+		AA0A37C72AF9856F000F4D0F /* RegistrationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A37C62AF9856F000F4D0F /* RegistrationVM.swift */; };
 		AA516BE82AF55F17004E3F47 /* Instagram_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516BE72AF55F17004E3F47 /* Instagram_CloneApp.swift */; };
 		AA516BEA2AF55F17004E3F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516BE92AF55F17004E3F47 /* ContentView.swift */; };
 		AA516BEC2AF55F1B004E3F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA516BEB2AF55F1B004E3F47 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		AA0A37B12AF97A5A000F4D0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AA0A37BE2AF97E21000F4D0F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		AA0A37C32AF98051000F4D0F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		AA0A37C62AF9856F000F4D0F /* RegistrationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVM.swift; sourceTree = "<group>"; };
 		AA516BE42AF55F17004E3F47 /* Instagram_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA516BE72AF55F17004E3F47 /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
 		AA516BE92AF55F17004E3F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA0A37BC2AF97DE9000F4D0F /* Presentation */ = {
+		AA0A37BC2AF97DE9000F4D0F /* View */ = {
 			isa = PBXGroup;
 			children = (
 				AA516C122AF580EF004E3F47 /* LoginView.swift */,
@@ -93,7 +95,7 @@
 				AA516C1A2AF59686004E3F47 /* CreatePasswordView.swift */,
 				AA516C182AF59113004E3F47 /* CreateUsernameView.swift */,
 			);
-			name = Presentation;
+			name = View;
 			sourceTree = "<group>";
 		};
 		AA0A37BD2AF97E04000F4D0F /* Service */ = {
@@ -104,12 +106,28 @@
 			name = Service;
 			sourceTree = "<group>";
 		};
-		AA0A37C02AF97FCB000F4D0F /* Presentation */ = {
+		AA0A37C02AF97FCB000F4D0F /* View */ = {
 			isa = PBXGroup;
 			children = (
 				AA516BE92AF55F17004E3F47 /* ContentView.swift */,
 			);
-			name = Presentation;
+			name = View;
+			sourceTree = "<group>";
+		};
+		AA0A37C52AF9854E000F4D0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A37C62AF9856F000F4D0F /* RegistrationVM.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA0A37C82AF9858E000F4D0F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A37C32AF98051000F4D0F /* ContentViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		AA516BDB2AF55F16004E3F47 = {
@@ -200,8 +218,9 @@
 		AA516BFC2AF55FBA004E3F47 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				AA0A37C52AF9854E000F4D0F /* ViewModel */,
 				AA0A37BD2AF97E04000F4D0F /* Service */,
-				AA0A37BC2AF97DE9000F4D0F /* Presentation */,
+				AA0A37BC2AF97DE9000F4D0F /* View */,
 			);
 			name = Authentication;
 			sourceTree = "<group>";
@@ -228,8 +247,8 @@
 		AA516BFF2AF55FD6004E3F47 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				AA0A37C02AF97FCB000F4D0F /* Presentation */,
-				AA0A37C32AF98051000F4D0F /* ContentViewModel.swift */,
+				AA0A37C82AF9858E000F4D0F /* ViewModel */,
+				AA0A37C02AF97FCB000F4D0F /* View */,
 			);
 			name = Root;
 			sourceTree = "<group>";
@@ -354,6 +373,7 @@
 				AA516C292AF660C2004E3F47 /* ProfileHeader.swift in Sources */,
 				AA516C0F2AF5737F004E3F47 /* FeedCell.swift in Sources */,
 				AA516C072AF56308004E3F47 /* ProfileView.swift in Sources */,
+				AA0A37C72AF9856F000F4D0F /* RegistrationVM.swift in Sources */,
 				AA0A37BF2AF97E21000F4D0F /* AuthService.swift in Sources */,
 				AA516BEA2AF55F17004E3F47 /* ContentView.swift in Sources */,
 				AA516C252AF65106004E3F47 /* Post.swift in Sources */,

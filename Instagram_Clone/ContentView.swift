@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject var vm = ContentViewModel()
+    @StateObject var registrationVmEnvironment = RegistrationVM()
     
     var body: some View {
         Group{
             if vm.userSession == nil {
                 LoginView()
+                    .environmentObject(registrationVmEnvironment)
                 
             } else {
                 MainTabView()
