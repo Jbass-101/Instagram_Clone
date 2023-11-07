@@ -39,6 +39,8 @@
 		AA516C2B2AF66312004E3F47 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C2A2AF66312004E3F47 /* UploadPostView.swift */; };
 		AA516C2D2AF6689F004E3F47 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C2C2AF6689F004E3F47 /* UploadPostViewModel.swift */; };
 		AAAFF5E82AFA9CB6007CE96A /* LogInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */; };
+		AAAFF5EA2AFAB148007CE96A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5E92AFAB148007CE96A /* UserService.swift */; };
+		AAAFF5EC2AFAB2BB007CE96A /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5EB2AFAB2BB007CE96A /* SearchVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		AA516C2A2AF66312004E3F47 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		AA516C2C2AF6689F004E3F47 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVM.swift; sourceTree = "<group>"; };
+		AAAFF5E92AFAB148007CE96A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		AAAFF5EB2AFAB2BB007CE96A /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		AA516BF62AF55F45004E3F47 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				AAAFF5E92AFAB148007CE96A /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				AA516C102AF57DAC004E3F47 /* SearchView.swift */,
+				AAAFF5EB2AFAB2BB007CE96A /* SearchVM.swift */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -374,9 +380,11 @@
 				AA516C1D2AF59927004E3F47 /* CompleteSignedUpView.swift in Sources */,
 				AA516C2B2AF66312004E3F47 /* UploadPostView.swift in Sources */,
 				AA516C292AF660C2004E3F47 /* ProfileHeader.swift in Sources */,
+				AAAFF5EC2AFAB2BB007CE96A /* SearchVM.swift in Sources */,
 				AA516C0F2AF5737F004E3F47 /* FeedCell.swift in Sources */,
 				AA516C072AF56308004E3F47 /* ProfileView.swift in Sources */,
 				AA0A37C72AF9856F000F4D0F /* RegistrationVM.swift in Sources */,
+				AAAFF5EA2AFAB148007CE96A /* UserService.swift in Sources */,
 				AA0A37BF2AF97E21000F4D0F /* AuthService.swift in Sources */,
 				AA516BEA2AF55F17004E3F47 /* ContentView.swift in Sources */,
 				AA516C252AF65106004E3F47 /* Post.swift in Sources */,

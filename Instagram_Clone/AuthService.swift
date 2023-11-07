@@ -21,12 +21,12 @@ class AuthService {
     static let shared = AuthService()
     
     init(){
-        Auth.auth().useEmulator(withHost: "192.168.0.195", port: 9090)
-        let settings = Firestore.firestore().settings
-        settings.host = "192.168.0.195:9091"
-        settings.isSSLEnabled = false
-        settings.isSSLEnabled = false
-        Firestore.firestore().settings = settings
+//        Auth.auth().useEmulator(withHost: "192.168.0.195", port: 9090)
+//        let settings = Firestore.firestore().settings
+//        settings.host = "192.168.0.195:9091"
+//        settings.isSSLEnabled = false
+//        settings.isSSLEnabled = false
+//        Firestore.firestore().settings = settings
         
         Task {
             try await loadUserData()
@@ -64,7 +64,7 @@ class AuthService {
         self.userSession = Auth.auth().currentUser
         guard let currentUid = userSession?.uid else { return }
         
-        let snapshot = try await Firestore.firestore().collection("InstagramUsers").document(currentUid).getDocument()
+        let snapshot = try await Firestore.firestore().collection("Users").document(currentUid).getDocument()
         self.currentUser = try? snapshot.data(as: User.self)
         
     }
@@ -86,7 +86,7 @@ class AuthService {
         let user = User(id: uid, email: email, username: username)
         self.currentUser = user
         guard let encodedUser = try? Firestore.Encoder().encode(user) else { return }
-        try? await Firestore.firestore().collection("InstagramUsers").document(user.id).setData(encodedUser)
+        try? await Firestore.firestore().collection("Users").document(user.id).setData(encodedUser)
     }
 }
     
