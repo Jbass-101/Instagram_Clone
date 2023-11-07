@@ -41,6 +41,8 @@
 		AAAFF5E82AFA9CB6007CE96A /* LogInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */; };
 		AAAFF5EA2AFAB148007CE96A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5E92AFAB148007CE96A /* UserService.swift */; };
 		AAAFF5EC2AFAB2BB007CE96A /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5EB2AFAB2BB007CE96A /* SearchVM.swift */; };
+		AAAFF5EE2AFAC646007CE96A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5ED2AFAC645007CE96A /* EditProfileView.swift */; };
+		AAAFF5F02AFACB42007CE96A /* EditProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5EF2AFACB42007CE96A /* EditProfileVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,8 @@
 		AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVM.swift; sourceTree = "<group>"; };
 		AAAFF5E92AFAB148007CE96A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		AAAFF5EB2AFAB2BB007CE96A /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
+		AAAFF5ED2AFAC645007CE96A /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		AAAFF5EF2AFACB42007CE96A /* EditProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				AA516C062AF56308004E3F47 /* ProfileView.swift */,
+				AAAFF5ED2AFAC645007CE96A /* EditProfileView.swift */,
+				AAAFF5EF2AFACB42007CE96A /* EditProfileVM.swift */,
 				AA516C222AF643EA004E3F47 /* CurrentUserProfileView.swift */,
 				AA516C282AF660C2004E3F47 /* ProfileHeader.swift */,
 			);
@@ -387,10 +393,12 @@
 				AAAFF5EA2AFAB148007CE96A /* UserService.swift in Sources */,
 				AA0A37BF2AF97E21000F4D0F /* AuthService.swift in Sources */,
 				AA516BEA2AF55F17004E3F47 /* ContentView.swift in Sources */,
+				AAAFF5F02AFACB42007CE96A /* EditProfileVM.swift in Sources */,
 				AA516C252AF65106004E3F47 /* Post.swift in Sources */,
 				AA516C132AF580EF004E3F47 /* LoginView.swift in Sources */,
 				AA516C232AF643EA004E3F47 /* CurrentUserProfileView.swift in Sources */,
 				AA516C0B2AF56B0A004E3F47 /* UserStatView.swift in Sources */,
+				AAAFF5EE2AFAC646007CE96A /* EditProfileView.swift in Sources */,
 				AA0A37C42AF98051000F4D0F /* ContentViewModel.swift in Sources */,
 				AAAFF5E82AFA9CB6007CE96A /* LogInVM.swift in Sources */,
 				AA516C272AF65DFA004E3F47 /* PostGridView.swift in Sources */,
