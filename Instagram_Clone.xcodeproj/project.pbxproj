@@ -38,6 +38,7 @@
 		AA516C292AF660C2004E3F47 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C282AF660C2004E3F47 /* ProfileHeader.swift */; };
 		AA516C2B2AF66312004E3F47 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C2A2AF66312004E3F47 /* UploadPostView.swift */; };
 		AA516C2D2AF6689F004E3F47 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA516C2C2AF6689F004E3F47 /* UploadPostViewModel.swift */; };
+		AAAFF5E82AFA9CB6007CE96A /* LogInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		AA516C282AF660C2004E3F47 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		AA516C2A2AF66312004E3F47 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		AA516C2C2AF6689F004E3F47 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
+		AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0A37C62AF9856F000F4D0F /* RegistrationVM.swift */,
+				AAAFF5E72AFA9CB6007CE96A /* LogInVM.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				AA516C232AF643EA004E3F47 /* CurrentUserProfileView.swift in Sources */,
 				AA516C0B2AF56B0A004E3F47 /* UserStatView.swift in Sources */,
 				AA0A37C42AF98051000F4D0F /* ContentViewModel.swift in Sources */,
+				AAAFF5E82AFA9CB6007CE96A /* LogInVM.swift in Sources */,
 				AA516C272AF65DFA004E3F47 /* PostGridView.swift in Sources */,
 				AA516C2D2AF6689F004E3F47 /* UploadPostViewModel.swift in Sources */,
 				AA516C112AF57DAC004E3F47 /* SearchView.swift in Sources */,
