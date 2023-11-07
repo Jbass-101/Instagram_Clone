@@ -28,7 +28,7 @@ struct CreatePasswordView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
             
-            TextField("Username", text: $vm.password)
+            SecureField("Password", text: $vm.password)
                 .modifier(IGTextFieldModifier())
                 .padding(.top)
             

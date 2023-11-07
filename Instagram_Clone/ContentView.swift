@@ -18,8 +18,8 @@ struct ContentView: View {
                 LoginView()
                     .environmentObject(registrationVmEnvironment)
                 
-            } else {
-                MainTabView()
+            } else if let currentUser = vm.currentUser {
+                MainTabView(user: currentUser)
             }
         }
     }
